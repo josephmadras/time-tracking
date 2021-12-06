@@ -3,12 +3,19 @@
   background-color: hsl(235, 46%, 20%);
   margin-right: 20px;
   border-radius: 10px;
-  padding: 20px 30px;
   width: 253px;
-color:#fff;
- 
+  color:#fff;
+  overflow: hidden;
+   
+  > div {
+    padding: 20px 30px;
+  }
+
   &__profile {
-  
+    border-radius: 10px;
+    background-color: hsl(246, 80%, 60%);
+    height: 320px;
+
     >div:first-child {
        width: 80px;
     
@@ -18,5 +25,15 @@ color:#fff;
         border-radius: 50%;
       }
     }
+ }
+
+ &__time-frame{
+   ul {
+     list-style: none;
+
+     li:not(:last-child){
+       margin-bottom: 20px;
+     }
+   }
  }
 }
