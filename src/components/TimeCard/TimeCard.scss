@@ -2,15 +2,33 @@
 
 .card{
   box-sizing: border-box;
-  background-color: $darkBlue;
   width: 253px;
   height: 242px;
-  padding: 10px;
-  color: hsl(236, 100%, 87%);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
 
+  &__content {
+    height: 210px;
+    background-color: hsl(235, 46%, 20%);
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: #fff;
+
+  }
 
   &__title {
     display: flex;
     justify-content: space-between;
+  }
+
+  &__current {
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: 10px;
+  }
+
+  &__illustration {
+    height: 44px;
   }
 }
