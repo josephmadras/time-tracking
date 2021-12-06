@@ -1,24 +1,24 @@
 import "./TimeCard.scss";
 import ThreeDots from "../../images/icon-ellipsis.svg";
 
-export const TimeCard = ({ tracker }) => {
-  const { category, currentHours, previousHours, period } = tracker;
+export const TimeCard = ({ info, period }) => {
+  const { title,  timeframes} = info;
 
-  return (
-    <div>
+ return (
+    <div cla>
       <div>
-        <div>{category}</div>
+        <div>{title}</div>
         <div>
           <img src={ThreeDots} alt="Three dots" />
         </div>
       </div>
 
       <div>
-        <h1>{currentHours}hrs</h1>
+        <h1>{timeframes.daily.current}hrs</h1>
       </div>
 
       <div>
-        Last {period} - {previousHours}hrs
+        Last {period} - {timeframes.daily.previous}hrs
       </div>
     </div>
   );
