@@ -14,11 +14,11 @@ export const TimeCard = ({ info, period }) => {
       </div>
 
       <div className="card__current">
-        <h1>{timeframes.daily.current}hrs</h1>
+        <h1>{timeframes.weekly.current}hrs</h1>
       </div>
 
       <div className="card__previous">
-        Last {period} - {timeframes.daily.previous}hrs
+        Last {period} - {timeframes.weekly.previous}hrs
       </div>
     </div>
   );

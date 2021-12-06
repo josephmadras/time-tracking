@@ -1,0 +1,16 @@
+@import "../../styles/colors";
+
+.card{
+  box-sizing: border-box;
+  background-color: $darkBlue;
+  width: 253px;
+  height: 242px;
+  padding: 10px;
+  color: hsl(236, 100%, 87%);
+
+
+  &__title {
+    display: flex;
+    justify-content: space-between;
+  }
+}
