@@ -6,7 +6,6 @@ import selfCare from "../../images/icon-self-care.svg";
 import social from "../../images/icon-social.svg";
 import study from "../../images/icon-study.svg";
 import work from "../../images/icon-work.svg";
-import jeremy from "../../images/image-jeremy.png";
 
 export const TimeCard = ({ info, period }) => {
   const { title, timeframes } = info;
