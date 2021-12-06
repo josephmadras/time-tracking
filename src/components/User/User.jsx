@@ -9,7 +9,7 @@ export const User = () => {
           <img src={jeremy} alt="Jeremy"/>
         </div>
         <div>
-          <span>Report to</span>
+          <span>Report for</span>
           <h1>Jeremy Robson</h1>
         </div>
       </div>

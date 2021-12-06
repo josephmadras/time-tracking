@@ -16,14 +16,28 @@
     background-color: hsl(246, 80%, 60%);
     height: 320px;
 
-    >div:first-child {
-       width: 80px;
+    > div:first-child {
+       width: 65px;
     
       img {
         width: 100%;
         border: 3px solid #fff; 
         border-radius: 50%;
       }
+    }
+
+    > div:nth-child(2){
+      margin-top: 30px;
+
+      span{
+        font-size: 14px;
+        color: hsl(236, 100%, 87%);
+      }
+    }
+
+    h1 {
+      font-weight: 300;
+
     }
  }
 
